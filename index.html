@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>نتائج البكالوريا 2026</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Tahoma, Arial;
+    background:linear-gradient(to left,#2f4f4f,#241733);
+    min-height:100vh;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding-top:20px;
+}
+
+.header img{
+    width:90px;
+    margin:15px 0;
+}
+
+.small-text{
+    font-size:20px;
+    line-height:1.8;
+}
+
+.main-title{
+    margin-top:10px;
+    font-size:58px;
+    font-weight:bold;
+    line-height:1.5;
+}
+
+.description{
+    margin-top:25px;
+    font-size:28px;
+    line-height:1.8;
+    font-weight:bold;
+}
+
+.line{
+    margin-top:35px;
+    border:none;
+    border-top:1px solid rgba(255,255,255,0.5);
+}
+
+.container{
+    width:92%;
+    max-width:900px;
+    margin:40px auto;
+}
+
+.card{
+    background:#efefef;
+    color:black;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card-top{
+    padding:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    border-bottom:1px solid #d0d0d0;
+    flex-wrap:wrap;
+}
+
+.green-btn{
+    background:#47b84e;
+    color:white;
+    border:none;
+    padding:16px 35px;
+    border-radius:8px;
+    font-size:24px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.notice{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.form{
+    padding:30px;
+}
+
+.form-group{
+    margin-bottom:30px;
+}
+
+label{
+    display:block;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom:2px solid #999;
+    background:transparent;
+    padding:15px 5px;
+    font-size:24px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#1f6fb2;
+}
+
+.yellow-box{
+    background:#f1dd2d;
+    padding:18px;
+    margin-top:10px;
+    font-size:22px;
+    border-radius:4px;
+}
+
+.captcha{
+    margin-top:40px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.submit-btn{
+    width:100%;
+    margin-top:35px;
+    background:#1f6fb2;
+    color:white;
+    border:none;
+    padding:20px;
+    font-size:28px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.submit-btn:hover{
+    background:#144c7c;
+}
+
+.result{
+    display:none;
+    margin-top:35px;
+    background:#dff0d8;
+    color:#1d4f1d;
+    padding:25px;
+    border-radius:6px;
+    font-size:26px;
+    line-height:2;
+}
+
+@media(max-width:768px){
+
+.main-title{
+    font-size:34px;
+}
+
+.description{
+    font-size:20px;
+}
+
+.notice{
+    font-size:20px;
+    text-align:center;
+}
+
+.green-btn{
+    font-size:18px;
+    padding:12px 22px;
+}
+
+label{
+    font-size:20px;
+}
+
+input{
+    font-size:18px;
+}
+
+.submit-btn{
+    font-size:22px;
+}
+
+.result{
+    font-size:20px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="small-text">
+الجمهورية الجزائرية الديمقراطية الشعبية<br>
+وزارة التربية الوطنية<br>
+الديوان الوطني للامتحانات والمسابقات
+</div>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg">
+
+<div class="main-title">
+الاطلاع على نتائج امتحان شهادة البكالوريا دورة 2026
+</div>
+
+<div class="description">
+استظهار نتائج امتحان شهادة البكالوريا دورة 2026<br>
+نتمنى النجاح والتوفيق لجميع المترشحين
+</div>
+
+<hr class="line">
+
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<div class="card-top">
+
+<button class="green-btn">
+الشروط والتوجيهات
+</button>
+
+<div class="notice">
+قبل ملء الاستمارة يجب الاطلاع على الشروط والتوجيهات التالية:
+</div>
+
+</div>
+
+<div class="form">
+
+<div class="form-group">
+<label>رقم التسجيل *</label>
+<input type="text" id="reg" placeholder="رقم التسجيل">
+</div>
+
+<div class="form-group">
+<label>الرقم السري أو كلمة المرور *</label>
+<input type="password" id="pass" placeholder="الرقم السري أو كلمة المرور">
+</div>
+
+<div class="yellow-box">
+قم بإدخال المعلومات الصحيحة الموجودة في الاستدعاء الخاص بك.
+</div>
+
+<div class="captcha">
+سؤال : كم يساوي 5 + 3 ؟
+</div>
+
+<div class="form-group">
+<input type="text" id="answer" placeholder="الجواب">
+</div>
+
+<button class="submit-btn" onclick="showResult()">
+استظهار النتيجة
+</button>
+
+<div class="result" id="result"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+function showResult(){
+
+let reg = document.getElementById("reg").value;
+let pass = document.getElementById("pass").value;
+let answer = document.getElementById("answer").value;
+
+if(reg === "" || pass === "" || answer === ""){
+
+alert("عمر كامل المعلومات يا صاحبي 😒");
+return;
+
+}
+
+if(answer != "8"){
+
+alert("راك غالط فالحساب 😂");
+return;
+
+}
+
+/* نتيجة خاصة */
+
+if(reg === "999999999" && pass === "999999999"){
+
+let resultBox = document.getElementById("result");
+
+resultBox.style.display = "block";
+resultBox.style.background = "#dff0d8";
+resultBox.style.color = "#1d4f1d";
+
+resultBox.innerHTML = `
+
+<b>الاسم :</b> ثلجة بوشمال 🤍<br>
+
+<b>الشعبة :</b> رياضيات ➗<br>
+
+<b>المعدل :</b> 16.55 / 20<br>
+
+<b>التقدير :</b> جيد جدا 👏<br>
+
+<b>النتيجة :</b> ناجح 🎉<br><br>
+
+<b>الملاحظة :</b> مبروك يا طبيبة الاسنان 🦷😂
+
+`;
+
+return;
+
+}
+
+/* نتائج عشوائية */
+
+let note = (Math.random() * 20).toFixed(2);
+
+let status = "";
+let appreciation = "";
+let joke = "";
+let color = "";
+
+if(note >= 10){
+
+status = "ناجح 🎉";
+color = "#1d4f1d";
+
+let successCases = [
+
+{
+app:"إعجاز علمي 👑",
+joke:"إسلام 🔥"
+},
+
+{
+app:"وحش 🔥",
+joke:"راك دمرت الباك يا أسطورة 😂"
+},
+
+{
+app:"خطير 😎",
+joke:"الجامعة تستناك يا بطل 😂"
+},
+
+{
+app:"جيد جدا 👏",
+joke:"الوالدة راح تدعيلك عام كامل 🤲😂"
+},
+
+{
+app:"مقبول 🙂",
+joke:"المهم ديتها وماعدكش مع السوجي 😂"
+},
+
+{
+app:"فحل الدراسة 📚",
+joke:"راك عايش في المراجعة أكثر من داركم 😂"
+},
+
+{
+app:"ناجح بصعوبة 😅",
+joke:"نجحت بالدعاء تاع الوالدة 😂"
+},
+
+{
+app:"تبارك الله 😌",
+joke:"راك خليت الجماعة يحوسو على التسريبات منك 😂"
+},
+
+{
+app:"مليح 🔥",
+joke:"الآن تقدر تنعس مرتاح 😂"
+}
+
+];
+
+let randomSuccess =
+successCases[Math.floor(Math.random() * successCases.length)];
+
+appreciation = randomSuccess.app;
+joke = randomSuccess.joke;
+
+if(note >= 19){
+
+appreciation = "إعجاز علمي 👑";
+joke = "إسلام 🔥";
+
+}
+
+}else{
+
+status = "راسب 💀";
+color = "#7a0000";
+
+let failCases = [
+
+{
+app:"كارثة طبيعية 🌚",
+joke:"الباك شاف الورقة وبدا يبكي 😂"
+},
+
+{
+app:"حاول مجددا 😅",
+joke:"السنة الجاية دير نية جديدة 😂"
+},
+
+{
+app:"خارج التغطية 📡",
+joke:"راك كنت حافظ غير الاسم والنسب 😂"
+},
+
+{
+app:"الله غالب 😭",
+joke:"الكرسي أكثر واحد تعب فالقسم 😂"
+},
+
+{
+app:"صعيبة عليك 😬",
+joke:"راك داخل للامتحان كيما داخل للعرس 😂"
+},
+
+{
+app:"مفاجأة الموسم 💀",
+joke:"حتى الآلة الحاسبة حبست عليك 😂"
+},
+
+{
+app:"راجع روحك 😂",
+joke:"المراجعة كانت مع الأحلام فقط 😂"
+},
+
+{
+app:"ماكانش الزهر 😭",
+joke:"القلم خدم أكثر منك 😂"
+}
+
+];
+
+let randomFail =
+failCases[Math.floor(Math.random() * failCases.length)];
+
+appreciation = randomFail.app;
+joke = randomFail.joke;
+
+}
+
+let resultBox = document.getElementById("result");
+
+resultBox.style.display = "block";
+resultBox.style.background = note >= 10 ? "#dff0d8" : "#ffd6d6";
+resultBox.style.color = color;
+
+resultBox.innerHTML = `
+
+<b>الاسم :</b> مترشح مجهول 🕵️‍♂️<br>
+
+<b>الشعبة :</b> تقني رياضي ⚙️<br>
+
+<b>المعدل :</b> ${note} / 20<br>
+
+<b>التقدير :</b> ${appreciation}<br>
+
+<b>النتيجة :</b> ${status}<br><br>
+
+<b>الملاحظة :</b> ${joke}
+
+`;
+
+}
+
+</script>
+
+</body>
+</html>
